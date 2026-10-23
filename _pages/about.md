@@ -1,4 +1,21 @@
 ---
+layout: about
+title: Sobre
+permalink: /
+subtitle: Graduando em Engenharia Agronômica (UFAM) e Técnico em Agropecuária (IFAM).
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+  more_info: >
+    <p>Humaitá, Amazonas, Brasil</p>
+
+selected_papers: false
+social: true
+---
+
+## Biografia acadêmica
 
 Graduando em Engenharia Agronômica pela Universidade Federal do Amazonas (UFAM), no Instituto de Educação, Agricultura e Ambiente (IEAA), e Técnico em Agropecuária pelo Instituto Federal de Educação, Ciência e Tecnologia do Amazonas (IFAM).
 
@@ -22,4 +39,3 @@ Busca integrar programação científica, inteligência artificial e conheciment
 - Programação científica e análise de dados;
 - Pesquisa agrícola e desenvolvimento de soluções tecnológicas;
 - Monitoramento ambiental e sustentabilidade.
----
