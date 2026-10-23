@@ -15,7 +15,6 @@ selected_papers: false
 social: true
 ---
 
-## Biografia acadêmica
 
 Graduando em Engenharia Agronômica pela Universidade Federal do Amazonas (UFAM), no Instituto de Educação, Agricultura e Ambiente (IEAA), e Técnico em Agropecuária pelo Instituto Federal de Educação, Ciência e Tecnologia do Amazonas (IFAM).
 
