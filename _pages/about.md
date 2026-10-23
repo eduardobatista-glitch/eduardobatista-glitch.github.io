@@ -1,34 +1,101 @@
 ---
 layout: about
-title: about
+title: Início
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+nav: true
+nav_order: 1
+subtitle: Portfólio acadêmico em construção
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+    <p>Perfil em atualização</p>
+    <p>Informações acadêmicas e profissionais em revisão.</p>
+selected_papers: false
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div class="row mt-4 mb-5">
+  <div class="col-12 text-center">
+    <span class="badge badge-primary">Portfólio acadêmico</span>
+    <h2 class="mt-3 mb-3">Eduardo Batista</h2>
+    <p class="lead mb-4">
+      Este site está sendo organizado para apresentar minha trajetória acadêmica, interesses, projetos,
+      pesquisas e formas de contato. O conteúdo será atualizado com informações reais conforme forem
+      disponibilizadas.
+    </p>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      <a href="/projects/" class="btn btn-primary">Projetos</a>
+      <a href="/sobre/" class="btn btn-outline-primary">Sobre mim</a>
+      <a href="/contato/" class="btn btn-outline-secondary">Contato</a>
+    </div>
+    <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+      <a href="https://github.com/eduardobatista-glitch" class="btn btn-sm btn-outline-dark" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="#" class="btn btn-sm btn-outline-dark" aria-disabled="true" tabindex="-1">
+        <i class="fab fa-linkedin"></i> LinkedIn (em breve)
+      </a>
+      <a href="#" class="btn btn-sm btn-outline-dark" aria-disabled="true" tabindex="-1">
+        <i class="fas fa-envelope"></i> E-mail (em breve)
+      </a>
+    </div>
+  </div>
+</div>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<div class="row">
+  <div class="col-md-6">
+    <h3>Sobre mim</h3>
+    <p>
+      Este espaço foi preparado para apresentar minha identidade acadêmica, trajetórias de estudo, interesses
+      e objetivos profissionais em uma linguagem clara, organizada e moderna.
+    </p>
+    <p>
+      O conteúdo deste portfólio será revisado e atualizado com informações reais do autor, para manter o site
+      profissional, confiável e alinhado com a apresentação acadêmica pessoal.
+    </p>
+  </div>
+  <div class="col-md-6">
+    <h3>Em destaque</h3>
+    <ul>
+      <li>Formação acadêmica em atualização</li>
+      <li>Projetos e atividades em revisão</li>
+      <li>Pesquisas e publicações em organização</li>
+      <li>Certificados e cursos pendentes de inclusão</li>
+    </ul>
+  </div>
+</div>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<hr class="my-5" />
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Formação</h4>
+        <p class="card-text">A seção de formação acadêmica será preenchida com os cursos, instituições e períodos corretos.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Projetos</h4>
+        <p class="card-text">Trabalhos, pesquisas e atividades acadêmicas serão listados em breve.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title">Contato</h4>
+        <p class="card-text">A plataforma de contato será finalizada quando os dados oficiais forem informados.</p>
+      </div>
+    </div>
+  </div>
+</div>

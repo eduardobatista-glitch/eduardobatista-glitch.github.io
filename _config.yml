@@ -2,28 +2,22 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-
 title: "Eduardo Batista | Portfólio"
 first_name: Eduardo
 middle_name: ""
 last_name: Batista
 contact_note: >
-  Entre em contato para conversar sobre projetos e oportunidades.
+  Conteúdo em atualização. Use o GitHub ou o e-mail informado quando disponível.
 description: >
-  Portfólio profissional com projetos, competências e experiências.
+  Portfólio acadêmico em construção, com formação, projetos, pesquisas, certificados e contato.
 footer_text: ""
-
-
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+keywords: eduardo batista, portfolio, academia, pesquisa, projetos, formação
+lang: pt-BR # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty to use the default icon.
+apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty intentionally.
 
-url: https://eduardobatista-glitch.github.io # the base hostname & protocol for your site
-baseurl: /barista.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://barista.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -123,7 +117,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 analytics:
   # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-  # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
+  # and follow the instructions for Google Services. You will need to create a Google Analytics property and copy the Google tag ID.
   google: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
@@ -131,7 +125,7 @@ analytics:
   cloudflare: # your Cloudflare Web Analytics beacon token (32 hex characters)
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
+# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=html-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 

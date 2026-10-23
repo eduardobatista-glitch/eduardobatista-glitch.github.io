@@ -1,12 +1,17 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Currículo
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 7
+cv_pdf: # você pode adicionar o PDF quando o arquivo estiver disponível
+cv_format: jsonresume
+description: Página de currículo acadêmico e profissional em atualização.
 toc:
   sidebar: left
 ---
+
+<p>
+  A página de currículo será utilizada para apresentar informações acadêmicas e profissionais em formato organizado.
+  Enquanto o PDF não for disponibilizado, este espaço permanece em construção.
+</p>
