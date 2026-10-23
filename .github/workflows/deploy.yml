@@ -54,7 +54,6 @@ jobs:
 
       - name: Install and build the Jekyll site
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
