@@ -2,7 +2,7 @@
 layout: page
 title: Sobre mim
 permalink: /sobre/
-nav: true
+nav: false
 nav_order: 2
 description: Biografia acadêmica e perfil profissional em atualização.
 ---
@@ -28,7 +28,7 @@ description: Biografia acadêmica e perfil profissional em atualização.
   <h4>Resumo provisório</h4>
   <ul>
     <li>Curso: a informar</li>
-    <li>Institui��ão: a informar</li>
+    <li>Instituição: a informar</li>
     <li>Interesses acadêmicos: a definir</li>
     <li>Objetivos profissionais: a definir</li>
   </ul>
