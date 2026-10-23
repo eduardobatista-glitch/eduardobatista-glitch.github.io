@@ -6,7 +6,7 @@ subtitle: Graduando em Engenharia Agronômica (UFAM) | Técnico em Agropecuária
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: assets/img/prof_pic.jpg
   image_circular: false # Mude para true se quiser a foto redonda
   more_info: >
     <p>Humaitá, Amazonas, Brasil</p>
@@ -17,15 +17,15 @@ selected_papers: true # Exibe publicações em destaque
 social: true # Exibe os ícones das redes sociais no topo/rodapé
 ---
 
-**Eduardo da Costa Batista** é graduando em Engenharia Agronômica pela Universidade Federal do Amazonas (UFAM), no Instituto de Educação, Agricultura e Ambiente (IEAA), e Técnico em Agropecuária pelo Instituto Federal do Amazonas (IFAM).
+**Eduardo da Costa Batista** é graduando em Engenharia Agronômica pela Universidade Federal do Amazonas (UFAM), no Instituto de Educação, Agricultura e Ambiente (IEAA), e Técnico em Agropecuária pelo IFAM.
 
-Desenvolve atividades de pesquisa nas áreas de **inteligência artificial aplicada à agricultura**, **visão computacional**, **processamento digital de imagens**, **fitopatologia**, **agricultura de precisão** e **ecologia pesqueira**.
+Desenvolve atividades de pesquisa nas áreas de **inteligência artificial aplicada à agricultura**, **visão computacional**, **processamento digital de imagens**, **fitopatologia**, **agricultura digital** e **monitoramento ambiental**.
 
 Seus trabalhos envolvem o desenvolvimento de ferramentas computacionais para:
 - Análise de imagens foliares e identificação de sintomas de doenças em plantas;
 - Avaliação fitossanitária de culturas agrícolas;
 - Monitoramento da pesca artesanal na região amazônica.
 
-Tem como foco a integração entre ciência de dados, tecnologias digitais e ciências agrárias, buscando desenvolver soluções acessíveis para o diagnóstico fitossanitário, o monitoramento ambiental e o fortalecimento da pesquisa científica na Amazônia.
+Tem como foco a integração entre ciência de dados, tecnologias digitais e ciências agrárias, buscando desenvolver soluções acessíveis para o diagnóstico fitossanitário, o monitoramento ambiental e a adoção de práticas sustentáveis na Amazônia.
 
 Busca ampliar sua experiência em pesquisa, programação científica, geotecnologias e desenvolvimento de soluções tecnológicas voltadas à agricultura e ao meio ambiente.
