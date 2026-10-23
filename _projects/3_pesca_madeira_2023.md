@@ -10,7 +10,7 @@ category: Pesquisa
 **Período:** 2023 – 2024  
 **Situação:** Concluído | **Natureza:** Pesquisa  
 **Coordenador:** Prof. Dr. Marcelo Rodrigues dos Anjos  
-**Integrantes:** Eduardo da Costa Batista
+**Integrantes:** Eduardo da Costa Batista  
 
 ### Descrição do Projeto
 Pesquisa focada no levantamento de dados de desembarque de pesca artesanal na Colônia de Pescadores Z-31, em Humaitá/AM. Durante o período de execução, foram coletados dados de **49 espécies (36 gêneros e 18 famílias)**, totalizando **168 toneladas de biomassa**.

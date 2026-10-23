@@ -10,7 +10,7 @@ category: Pesquisa
 **Período:** 2025 – Atual  
 **Situação:** Em andamento | **Natureza:** Pesquisa  
 **Coordenador:** Prof. Dr. Marcelo Rodrigues dos Anjos  
-**Integrantes:** Eduardo da Costa Batista
+**Integrantes:** Eduardo da Costa Batista  
 
 ### Descrição do Projeto
 Este projeto de iniciação científica tem como objetivo analisar a produção pesqueira artesanal no município de Humaitá, Amazonas, por meio do monitoramento sistemático dos desembarques no médio rio Madeira.

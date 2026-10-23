@@ -10,7 +10,7 @@ category: Pesquisa
 **Período:** 2020  
 **Situação:** Concluído | **Natureza:** Pesquisa  
 **Coordenador:** Prof. Me. Pedro Augusto Roriz Costa  
-**Integrantes:** Eduardo da Costa Batista
+**Integrantes:** Eduardo da Costa Batista  
 
 ### Descrição do Projeto
 Estudo realizado no Instituto Federal do Amazonas (IFAM), Campus Humaitá, focado na comparação prática de dois métodos topográficos:
@@ -18,4 +18,4 @@ Estudo realizado no Instituto Federal do Amazonas (IFAM), Campus Humaitá, focad
 1. **Método de Caminhamento (Traversing):** Alta precisão por meio do estabelecimento de poligonais.
 2. **Método da Caminhada (Walking):** Coleta mais rápida e dinâmica.
 
-A pesquisa avaliou as vantagens, desvantagens, tempo gasto e precisão de cada técnica, contribuindo para a escolha mais adequada de procedimentos de levantamento em contextos de campo com diferentes demandas de precisão e produtividade.
+A pesquisa avaliou as vantagens, desvantagens, tempo gasto e precisão de cada técnica, contribuindo para a escolha de procedimentos mais adequados em levantamentos de campo com diferentes objetivos e restrições operacionais.

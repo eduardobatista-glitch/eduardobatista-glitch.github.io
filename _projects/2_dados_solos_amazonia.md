@@ -11,7 +11,7 @@ category: Pesquisa
 **Situação:** Concluído | **Natureza:** Pesquisa  
 **Coordenador:** Prof. Dr. Deyvid Diego Maranha  
 **Integrantes:** Eduardo da Costa Batista  
-**Financiador:** Bolsa de Iniciação Científica - Universidade Federal do Amazonas (UFAM)
+**Financiador:** Bolsa de Iniciação Científica - Universidade Federal do Amazonas (UFAM)  
 
 ### Descrição do Projeto
 Projeto voltado à organização, padronização e análise de informações sobre os solos da região amazônica. O objetivo principal consistiu em compilar dados dispersos em estudos científicos, levantamentos de campo e bases institucionais para criar um banco de dados integrado.
