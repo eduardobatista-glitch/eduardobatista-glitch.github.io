@@ -18,82 +18,24 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# Contact & Social Links
-# -----------------------------------------------------------------------------
-
-email: "eduardo.barista0998@gmail.com"
-linkedin_username: "eduardo-batista-7bba08291"
-scholar_userid: "D_aGM8UAAAAJ"
-github_username: "eduardobatista-glitch"
-
-# -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
 # repo color theme
 repo_theme_light: default # https://github.com/stats-organization/github-stats-extended/blob/master/packages/core/src/themes/README.md
 repo_theme_dark: dark # https://github.com/stats-organization/github-stats-extended/blob/master/packages/core/src/themes/README.md
-# Off by default: addresses are then split at build time so the HTML contains no
-# `user@host` and no `mailto:` for harvesters to scrape, and clicking one copies
-# it to the clipboard instead of opening a mail client.
-# See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
-protect_email: false
-
-# Off by default: the free public github-profile-trophy instance is disabled
-# (its Vercel deployment answers HTTP 402 / DEPLOYMENT_DISABLED), so every trophy
-# image 404s. The project itself is still open source and free — self-host it and
-# point external_services.github_profile_trophy_url at your instance, then set
-# enabled: true. See docs/CUSTOMIZE.md.
 repo_trophies:
   enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
-
-# External service URLs for repository page
-# To use a different instance or service for displaying GitHub stats and trophies,
-# update these URLs. These are used in the repository templates.
-external_services:
-  github_readme_stats_url: https://github-stats-extended.vercel.app
-  github_profile_trophy_url: https://github-profile-trophy.vercel.app
-
-# -----------------------------------------------------------------------------
-# al-folio API (v1.x)
-# -----------------------------------------------------------------------------
-
-al_folio:
-  api_version: 1
-  style_engine: tailwind
-  tailwind:
-    version: 4.1.18
-    preflight: false
-    css_entry: assets/tailwind/app.css
-  distill:
-    engine: distillpub-template
-    source: al-org-dev/distill-template#al-folio
-    allow_remote_loader: false
-  features:
-    cv:
-      enabled: true
-    distill:
-      enabled: true
-  compat:
-    bootstrap:
-      enabled: false
-      support_window: v1.0-v1.2
-      deprecates_in: v1.3
-      removed_in: v2.0
-  upgrade:
-    channel: stable
-    auto_apply_safe_fixes: false
-
-imagemagick:
-  enabled: false
 
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -109,6 +51,8 @@ bib_search: true
 # Dimensions
 max_width: 930px
 
+# TODO: add layout settings (single page vs. multi-page)
+
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
@@ -119,18 +63,62 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: "" # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+acm_id: # your dl.acm.org/profile/id
+blogger_url: # your blogger URL
+bluesky_url: # your bluesky URL
+dblp_url: # your DBLP profile url
+discord_id: # your discord id (18-digit unique numerical identifier)
+facebook_id: # your facebook id
+flickr_id: # your flickr id
+github_username: "eduardobatista-glitch"
+gitlab_username: # your GitLab user name
+ieee_id: # your ieeexplore.ieee.org/author/id
+inspirehep_id: # your Inspire HEP author ID
+instagram_id: # your instagram id
+kaggle_id: # your kaggle id
+keybase_username: # your keybase user name
+lastfm_id: # your lastfm id
+lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+linkedin_username: "eduardo-batista-7bba08291"
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+medium_username: # your Medium username
+orcid_id: # your ORCID ID
+osf_id: # your OSF ID
+pinterest_id: # your pinterest id
+publons_id: # your ID on Publons
+quora_username: # your Quora username
+research_gate_profile: # your profile on ResearchGate
+scholar_userid: "D_aGM8UAAAAJ"
+scopus_id: # your profile on Scopus
+semanticscholar_id: # your Semantic Scholar ID
+spotify_id: # your spotify id
+stackoverflow_id: # your stackoverflow id
+telegram_username: # your Telegram user name
+unsplash_id: # your unsplash id
+wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
+work_url: # work page URL
+x_username: # your X handle
+youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+zotero_username: # your zotero username
+
+contact_note: >
+  Graduando em Engenharia Agronômica (UFAM) e Técnico em Agropecuária (IFAM).
+
+# -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-analytics:
-  # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=pt&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-  # and follow the instructions for Google Services. You will need to create a Google Analytics property and copy the Google tag ID.
-  google: "" # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-  cronitor: "" # cronitor RUM analytics site ID (format: XXXXXXXXX)
-  pirsch: "" # your Pirsch analytics site ID (length 32 characters)
-  openpanel: "" # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-  cloudflare: "" # your Cloudflare Web Analytics beacon token (32 hex characters)
-enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
+# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=pt&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+# and follow the instructions for Google Services. You will need to create a Google Analytics property and copy the Google tag ID.
+google_analytics: "" # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+cronitor_analytics: "" # cronitor RUM analytics site ID (format: XXXXXXXXX)
+pirsch_analytics: "" # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=pt#meta_tag_verification&zippy=html-tag
 google_site_verification: "" # your google-site-verification ID (Google Search Console)
@@ -164,8 +152,7 @@ giscus:
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
-  light_theme: light # name of the light color scheme (preferred works well with al-folio dark mode)
+  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
 
@@ -175,19 +162,14 @@ disqus_shortname: al-folio # put your disqus shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
-# you can display them in the RSS feed.
-# Optional: Set default categories and tags for posts from each source.
+# you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
   - name: Google Blog
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
         published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -203,38 +185,96 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
   projects:
     output: true
-  news:
-    output: true
-  books:
-    output: false
-  teachings:
-    output: false
+    permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
-# Jekyll settings
+# Theme plugin contracts
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    css_class: "highlight"
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+plugins:
+  - al_folio_core
+  - al_folio_distill
+  - al_cookie
+  - al_icons
+  - al_math
+  - al_email_protect
+  - al_marimo
+  - al_rtl
+  - al_analytics
+  - al_citations
+  - al_ext_posts
+  - al_img_tools
+  - al_search
+  - al_charts
+  - al_math
+  - al_comments
+  - al_newsletter
 
-# Includes & excludes
-include: ["_pages"]
-exclude:
-  - AGENTS.md
-  - al-folio-upgrade-report.md
-  - bin/
-  - CLAUDE.md
-  - Dockerfile
-  - docker
+third_party_libraries:
+  download: false
+  fontawesome:
+    version: "6.7.2"
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
+    integrity:
+      css: "sha384-0mI6G4A+4Kw8EwKTT5L9J8v7J0Q+8S3x+Y5s0E1rQ3V1fR1m3C9t9qYxC7bzU0KQ=="
+  academicons:
+    version: "1.9.4"
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
+    integrity:
+      css: "sha384-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  scholar-icons:
+    version: "1.0.0"
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@scholar-icons/font@{{version}}/css/scholar-icons.min.css"
+    integrity:
+      css: "sha384-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  tocbot:
+    version: "4.12.3"
+    url:
+      js: "https://cdn.jsdelivr.net/npm/tocbot@{{version}}/dist/tocbot.min.js"
+    integrity:
+      js: "sha384-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  tikzjax:
+    version: "1.0.0"
+    url:
+      js: "https://cdn.jsdelivr.net/npm/tikzjax@{{version}}/dist/tikzjax.js"
+    integrity:
+      js: "sha384-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  features:
+    cv:
+      enabled: true
+    distill:
+      enabled: true
+  compat:
+    bootstrap:
+      enabled: false
+      support_window: v1.0-v1.2
+      deprecates_in: v1.3
+      removed_in: v2.0
+  upgrade:
+    channel: stable
+    auto_apply_safe_fixes: false
+
+imagemagick:
+  enabled: false
