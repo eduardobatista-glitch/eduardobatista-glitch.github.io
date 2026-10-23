@@ -4,37 +4,31 @@ title: Projetos
 permalink: /projects/
 nav: true
 nav_order: 4
-description: Coleção de trabalhos acadêmicos, projetos e atividades em desenvolvimento.
-display_categories: [trabalho, pesquisa, atividades]
+description: Projetos de pesquisa e desenvolvimento em agricultura digital, pesca e monitoramento ambiental.
+display_categories: [pesquisa, trabalho, atividades]
 horizontal: false
 ---
 
 <h3>Projetos e atividades</h3>
 
 <p>
-  Esta seção está reservada para apresentar projetos acadêmicos, trabalhos práticos, pesquisas e atividades relevantes.
-  O conteúdo será adicionado conforme os trabalhos forem concluídos e documentados.
+  Esta seção reúne os principais trabalhos acadêmicos, de pesquisa e extensão desenvolvidos ao longo da trajetória profissional e universitária.
 </p>
 
 <div class="row">
-  <div class="col-md-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h4 class="card-title">Projeto em desenvolvimento</h4>
-        <p class="card-text">Título e descrição do projeto serão incluídos quando o material estiver finalizado.</p>
+  {% assign projects = site.projects | sort: 'importance' %}
+  {% for project in projects %}
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          {% if project.img %}
+            <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="img-fluid rounded mb-3">
+          {% endif %}
+          <h4 class="card-title">{{ project.title }}</h4>
+          <p class="card-text">{{ project.description }}</p>
+          <a href="{{ project.url | relative_url }}" class="btn btn-sm btn-outline-primary">Saiba mais</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h4 class="card-title">Atividade acadêmica</h4>
-        <p class="card-text">Trabalhos, pesquisas e atividades complementares serão organizados em cards quando disponíveis.</p>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </div>
-
-<p class="mt-4 text-muted">
-  Nenhuma informação fictícia será publicada. Os projetos aparecerão apenas quando houver material real e verificável.
-</p>
