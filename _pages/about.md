@@ -6,7 +6,7 @@ subtitle: Graduando em Engenharia Agronômica (UFAM) | Técnico em Agropecuária
 
 profile:
   align: right
-  image: assets/img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # Mude para true se quiser a foto redonda
   more_info: >
     <p>Humaitá, Amazonas, Brasil</p>
