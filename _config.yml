@@ -9,8 +9,8 @@ description: >
 footer_text: ""
 keywords: eduardo batista, agronomia, inteligencia artificial, visao computacional, fitopatologia, ufam, amazonia
 lang: pt-BR # a linguagem do seu site
-icon: 🌱 # emoji que aparecerá na aba do navegador
-apple_touch_icon:
+icon: "🌱" # emoji que aparecerá na aba do navegador
+apple_touch_icon: ""
 url: https://eduardobatista-glitch.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -21,10 +21,10 @@ back_to_top: true # set to false to disable the back to top button
 # Contact & Social Links
 # -----------------------------------------------------------------------------
 
-email: eduardo.batista@ufam.edu.br
-linkedin_username: eduardo-batista-7bba08291
-scholar_userid: D_aGM8UAAAAJ
-github_username: eduardobatista-glitch
+email: "eduardo.batista@ufam.edu.br"
+linkedin_username: "eduardo-batista-7bba08291"
+scholar_userid: "D_aGM8UAAAAJ"
+github_username: "eduardobatista-glitch"
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -113,7 +113,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: "" # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -122,16 +122,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 analytics:
   # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=pt&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
   # and follow the instructions for Google Services. You will need to create a Google Analytics property and copy the Google tag ID.
-  google: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-  cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-  pirsch: # your Pirsch analytics site ID (length 32 characters)
-  openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-  cloudflare: # your Cloudflare Web Analytics beacon token (32 hex characters)
+  google: "" # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+  cronitor: "" # cronitor RUM analytics site ID (format: XXXXXXXXX)
+  pirsch: "" # your Pirsch analytics site ID (length 32 characters)
+  openpanel: "" # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+  cloudflare: "" # your Cloudflare Web Analytics beacon token (32 hex characters)
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=pt#meta_tag_verification&zippy=html-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification: "" # your google-site-verification ID (Google Search Console)
+bing_site_verification: "" # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -153,10 +153,10 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+  repo: "" # <your-github-user-name>/<your-github-repo-name>
+  repo_id: "" # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: "" # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
@@ -192,7 +192,7 @@ external_sources:
 
 newsletter:
   enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+  endpoint: "" # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
