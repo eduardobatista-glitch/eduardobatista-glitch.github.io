@@ -1,21 +1,16 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-
 title: "Eduardo Batista | Portfólio"
 first_name: Eduardo
-middle_name: ""
+middle_name: da Costa
 last_name: Batista
 contact_note: >
-  Conteúdo em atualização. Use o GitHub ou o e-mail informado quando disponível.
+  Graduando em Engenharia Agronômica (UFAM) e Técnico em Agropecuária (IFAM).
 description: >
-  Portfólio acadêmico em construção, com formação, projetos, pesquisas, certificados e contato.
+  Pesquisa e desenvolvimento em inteligência artificial aplicada à agricultura, visão computacional, fitopatologia e monitoramento na Amazônia.
 footer_text: ""
-keywords: eduardo batista, portfolio, academia, pesquisa, projetos, formação
-lang: pt-BR # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty intentionally.
-
+keywords: eduardo batista, agronomia, inteligencia artificial, visao computacional, fitopatologia, ufam, amazonia
+lang: pt-BR # a linguagem do seu site
+icon: 🌱 # emoji que aparecerá na aba do navegador
+apple_touch_icon:
 url: https://barista.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
