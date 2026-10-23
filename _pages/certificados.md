@@ -2,7 +2,7 @@
 layout: page
 title: Certificados
 permalink: /certificados/
-nav: true
+nav: false
 nav_order: 6
 description: Cursos complementares, eventos e certificados em fase de organização.
 ---
