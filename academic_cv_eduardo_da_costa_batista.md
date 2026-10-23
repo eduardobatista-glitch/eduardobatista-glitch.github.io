@@ -152,7 +152,7 @@
             font-size: 8.5pt;
             color: #64748b;
         }
-        
+
         ul.cv-list {
             margin: 3px 0 6px 0;
             padding-left: 16px;
@@ -223,6 +223,7 @@
             .page:last-child { break-after: auto; page-break-after: auto; }
         }
     </style>
+
 </head>
 <body>
 <div contenteditable="true">
@@ -250,7 +251,7 @@
 
         <section>
             <div class="section-title">Education</div>
-            
+
             <div class="entry">
                 <div class="entry-header">
                     <span class="entry-title">Federal University of Amazonas (UFAM)</span>
@@ -314,6 +315,7 @@
         <span>Eduardo da Costa Batista — Academic Curriculum Vitae</span>
         <span>Page 1 of 2</span>
     </footer>
+
 </section>
 
 <section class="page">
@@ -356,6 +358,7 @@
         <span>Eduardo da Costa Batista — Academic Curriculum Vitae</span>
         <span>Page 2 of 2</span>
     </footer>
+
 </section>
 
 </div>
