@@ -2,26 +2,43 @@
 layout: page
 ---
 
-<div class="projects">
+<div class="projects-page">
+  <header class="projects-page-header">
+    <h1>Projetos</h1>
+    <p class="page-subtitle">Pesquisa, desenvolvimento e monitoramento</p>
+  </header>
+
   {% assign projects = site.projects | sort: 'importance' | reverse %}
-
-  {% for project in projects %}
-    <div class="card hoverable">
-      <a href="{% if project.redirect %}{{ project.redirect | relative_url }}{% else %}{{ project.url | relative_url }}{% endif %}" aria-label="Abrir {{ project.title }}">
-        {% if project.img %}
-          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="img-fluid rounded" />
-        {% endif %}
-
-        <div class="card-body">
-          <h2 class="card-title">{{ project.title }}</h2>
-          {% if project.description %}
-            <p class="card-text">{{ project.description }}</p>
-          {% endif %}
+  <div class="projects-list">
+    {% for project in projects %}
+      {% assign project_year = project.year | default: project.date | date: '%Y' %}
+      <article class="project-item">
+        <div class="project-meta">
           {% if project.category %}
-            <p class="card-category"><small>{{ project.category }}</small></p>
+            <span class="project-tag">
+              {% if project_year %}
+                {{ project.category | upcase }} · {{ project_year }}
+              {% else %}
+                {{ project.category | upcase }}
+              {% endif %}
+            </span>
+          {% else %}
+            {% if project_year %}
+              <span class="project-tag">{{ project_year }}</span>
+            {% endif %}
           {% endif %}
         </div>
-      </a>
-    </div>
-  {% endfor %}
+
+        <h2 class="project-title">
+          <a href="{% if project.redirect %}{{ project.redirect | relative_url }}{% else %}{{ project.url | relative_url }}{% endif %}">
+            {{ project.title }}
+          </a>
+        </h2>
+
+        {% if project.description %}
+          <p class="project-description">{{ project.description }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
 </div>
