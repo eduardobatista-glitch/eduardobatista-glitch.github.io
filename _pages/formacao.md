@@ -2,7 +2,7 @@
 layout: page
 title: Formação
 permalink: /formacao/
-nav: true
+nav: false
 nav_order: 3
 description: Seção para formação acadêmica, cursos e trajetória de estudos.
 ---
