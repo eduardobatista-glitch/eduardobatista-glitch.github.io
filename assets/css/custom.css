@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg-top: #eaf1fb;
-  --bg-bottom: #f5f4f0;
-  --header-bg: #e6f0fa;
-  --text: #2c2f36;
-  --muted: #6b7280;
-  --line: rgba(44, 47, 54, 0.12);
-  --link: #3d5f7a;
-  --link-hover: #213d56;
+  --page-bg: #191f2a;
+  --nav-bg: #171d27;
+  --panel-bg: #1d2733;
+  --text: #e8e5df;
+  --muted: #c8c2bb;
+  --line: rgba(255, 255, 255, 0.08);
+  --link: #e8e5df;
+  --link-hover: #ffffff;
 }
 
 html {
@@ -17,10 +17,10 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
-  color: var(--text);
-  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  line-height: 1.7;
+  background: var(--page-bg) !important;
+  color: var(--text) !important;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif !important;
+  line-height: 1.65 !important;
   overflow-x: hidden;
 }
 
@@ -32,31 +32,155 @@ h5,
 h6,
 .post-title,
 .navbar-brand {
-  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  letter-spacing: -0.02em;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif !important;
+  letter-spacing: -0.025em;
+  color: var(--text) !important;
+}
+
+#navbar,
+.navbar-collapse-main,
+.navbar-menu-list,
+.navbar-menu-list a,
+.navbar-menu-list li,
+.navbar-toggler-main,
+.navbar-toggler-main .icon-bar {
+  box-sizing: border-box;
+}
+
+#navbar {
+  background: var(--nav-bg) !important;
+  border-bottom: 1px solid var(--line) !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 !important;
+  min-height: 56px !important;
+}
+
+.navbar-collapse-main {
+  background: var(--nav-bg) !important;
+  border-top: 1px solid var(--line) !important;
+}
+
+.navbar-menu-list {
+  background: transparent !important;
+  padding: 0.5rem 0 0.75rem !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+
+.navbar-menu-list a {
+  color: var(--text) !important;
+  font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.12em !important;
+  text-transform: lowercase !important;
+  text-decoration: none !important;
+  padding: 0.55rem 0 !important;
+}
+
+.navbar-menu-list a:hover,
+.navbar-menu-list a:focus,
+.navbar-menu-list a.active {
+  color: var(--link-hover) !important;
+}
+
+.navbar-toggler-main {
+  background: transparent !important;
+  border: 0 !important;
+  width: 42px !important;
+  height: 42px !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: auto !important;
+}
+
+.navbar-toggler-main .icon-bar {
+  display: block !important;
+  width: 22px !important;
+  height: 2px !important;
+  background: var(--text) !important;
+  border-radius: 2px !important;
+  margin: 3px 0 !important;
+}
+
+.profile {
+  width: 100% !important;
+  max-width: 260px !important;
+  margin: 0 0 18px 0 !important;
+}
+
+.profile img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 260px !important;
+  height: auto !important;
+  border-radius: 4px !important;
+  object-fit: cover !important;
+}
+
+.post-title {
+  color: var(--text) !important;
+  font-size: clamp(2.1rem, 7vw, 3.2rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -0.04em !important;
+  margin: 0 0 0.9rem !important;
+}
+
+.desc {
+  color: var(--text) !important;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif !important;
+  font-size: 17px !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+main,
+.page-content,
+.post-content,
+.container,
+.wrapper,
+article,
+.content {
+  width: auto !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+img,
+iframe,
+video,
+svg,
+table,
+pre,
+code {
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 @media (max-width: 768px) {
   html,
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+  }
+
+  body {
+    padding-top: 0 !important;
   }
 
   #navbar {
-    position: static !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    left: 0 !important;
-    right: 0 !important;
-    margin: 0 !important;
-    padding: 0 20px !important;
-    box-sizing: border-box !important;
-    background: var(--header-bg) !important;
-    border-bottom: 1px solid var(--line) !important;
-    min-height: 56px !important;
+    position: relative !important;
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
+    padding: 0 20px !important;
+    min-height: 56px !important;
+    z-index: 30;
   }
 
   .navbar-toggler-main {
@@ -65,64 +189,31 @@ h6,
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 44px !important;
-    height: 44px !important;
-    padding: 0 !important;
-    border: 1px solid rgba(45, 79, 122, 0.2) !important;
-    border-radius: 6px !important;
-    background: rgba(255, 255, 255, 0.2) !important;
-    cursor: pointer;
-    flex-shrink: 0;
-  }
-
-  .navbar-toggler-main .icon-bar {
-    display: block !important;
-    width: 18px !important;
-    height: 2px !important;
-    background: var(--text) !important;
-    border-radius: 2px !important;
-    margin: 3px 0 !important;
   }
 
   .navbar-collapse-main {
-    position: static !important;
+    position: relative !important;
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    background: var(--header-bg) !important;
+    padding: 0 20px !important;
+    background: var(--nav-bg) !important;
     border-top: 1px solid var(--line) !important;
-    box-sizing: border-box !important;
-    z-index: 10;
-    display: block !important;
+    z-index: 25;
   }
 
   .navbar-menu-list {
     display: flex !important;
     flex-direction: column !important;
-    width: 100% !important;
-    list-style: none !important;
-    margin: 0 !important;
-    padding: 12px 0 14px !important;
-    gap: 10px !important;
-  }
-
-  .navbar-menu-list li,
-  .navbar-menu-list a {
-    width: 100% !important;
-    display: block !important;
+    gap: 0.45rem !important;
+    padding: 0.7rem 0 1rem !important;
   }
 
   .navbar-menu-list a {
-    font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace !important;
-    font-size: 0.78rem !important;
-    text-transform: lowercase !important;
-    letter-spacing: 0.12em !important;
-    color: var(--text) !important;
-    padding: 0.5rem 0 !important;
-    text-decoration: none !important;
+    padding: 0.55rem 0 !important;
+    font-size: 0.73rem !important;
   }
 
-  body,
   main,
   .page-content,
   .post-content,
@@ -130,54 +221,24 @@ h6,
   .wrapper,
   article,
   .content {
-    width: auto !important;
-    max-width: 100% !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
-    box-sizing: border-box !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
   }
 
   .profile {
     display: block !important;
-    margin: 0 0 16px 0 !important;
     width: 100% !important;
     max-width: 260px !important;
-  }
-
-  .profile img {
-    display: block !important;
-    width: 100% !important;
-    max-width: 260px !important;
-    height: 260px !important;
-    object-fit: cover !important;
-    border-radius: 4px !important;
-    margin: 0 !important;
+    margin: 0 0 18px 0 !important;
   }
 
   .post-title {
-    font-size: clamp(28px, 7vw, 32px) !important;
-    line-height: 1.15 !important;
-    letter-spacing: -0.03em !important;
-    margin: 0 0 12px !important;
+    font-size: clamp(2.05rem, 8vw, 2.7rem) !important;
+    margin-bottom: 0.75rem !important;
   }
 
   .desc {
     font-size: 17px !important;
     line-height: 1.6 !important;
-    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif !important;
-    color: var(--text) !important;
-  }
-
-  img,
-  table,
-  iframe,
-  video,
-  svg,
-  pre,
-  code {
-    max-width: 100% !important;
-    height: auto !important;
   }
 }
