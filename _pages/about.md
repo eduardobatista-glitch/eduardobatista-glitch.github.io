@@ -13,7 +13,7 @@ profile:
 
 news: true # Exibe as últimas notícias/conquistas
 latest_posts: false # Exibe posts do blog se houver
-selected_papers: true # Exibe publicações em destaque
+selected_papers: false # Ocultar o bloco de publicações em destaque
 social: true # Exibe os ícones das redes sociais no topo/rodapé
 ---
 
