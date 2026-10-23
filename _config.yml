@@ -21,11 +21,10 @@ back_to_top: true # set to false to disable the back to top button
 # Contact & Social Links
 # -----------------------------------------------------------------------------
 
-socials:
-  email: "eduardo.barista0998@gmail.com"
-  linkedin_username: "eduardo-batista-7bba08291"
-  scholar_userid: "D_aGM8UAAAAJ"
-  github_username: "eduardobatista-glitch"
+email: "eduardo.barista0998@gmail.com"
+linkedin_username: "eduardo-batista-7bba08291"
+scholar_userid: "D_aGM8UAAAAJ"
+github_username: "eduardobatista-glitch"
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -86,6 +85,9 @@ al_folio:
   upgrade:
     channel: stable
     auto_apply_safe_fixes: false
+
+imagemagick:
+  enabled: false
 
 # -----------------------------------------------------------------------------
 # RSS Feed
