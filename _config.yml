@@ -2,22 +2,30 @@ title: "Eduardo Batista | Portfólio"
 first_name: Eduardo
 middle_name: da Costa
 last_name: Batista
-contact_note: "Graduando em Engenharia Agronômica (UFAM) e Técnico em Agropecuária (IFAM)."
-description: "Pesquisa e desenvolvimento em inteligência artificial aplicada à agricultura, visão computacional, fitopatologia e monitoramento na Amazônia."
+contact_note: >
+  Graduando em Engenharia Agronômica (UFAM) e Técnico em Agropecuária (IFAM).
+description: >
+  Pesquisa e desenvolvimento em inteligência artificial aplicada à agricultura, visão computacional, fitopatologia e monitoramento na Amazônia.
 footer_text: ""
-keywords: "eduardo batista, agronomia, inteligencia artificial, visao computacional, fitopatologia, ufam, amazonia"
-lang: pt-BR
-icon: "🌱"
-url: https://eduardobatista-glitch.github.io
-baseurl: ""
-last_updated: false
-back_to_top: true
+keywords: eduardo batista, agronomia, inteligencia artificial, visao computacional, fitopatologia, ufam, amazonia
+lang: pt-BR # a linguagem do seu site
+icon: "🌱" # emoji que aparecerá na aba do navegador
+apple_touch_icon: ""
+url: https://eduardobatista-glitch.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: false # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+back_to_top: true # set to false to disable the back to top button
 
+# -----------------------------------------------------------------------------
 # Contact & Social Links
-email: "eduardo.barista0998@gmail.com"
-linkedin_username: "eduardo-batista-7bba08291"
-scholar_userid: "D_aGM8UAAAAJ"
-github_username: "eduardobatista-glitch"
+# -----------------------------------------------------------------------------
+
+socials:
+  email: "eduardo.barista0998@gmail.com"
+  linkedin_username: "eduardo-batista-7bba08291"
+  scholar_userid: "D_aGM8UAAAAJ"
+  github_username: "eduardobatista-glitch"
 
 # -----------------------------------------------------------------------------
 # Theme
