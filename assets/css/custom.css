@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg-top: #edf5ff;
+  --bg-top: #eaf1fb;
   --bg-bottom: #f5f4f0;
-  --header-bg: #dfeaf9;
+  --header-bg: #e6f0fa;
   --text: #2c2f36;
   --muted: #6b7280;
   --line: rgba(44, 47, 54, 0.12);
-  --link: #2d4f7a;
-  --link-hover: #1d3557;
-  --card-bg: rgba(255, 255, 255, 0.38);
+  --link: #3d5f7a;
+  --link-hover: #213d56;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -21,6 +21,7 @@ body {
   color: var(--text);
   font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 body,
@@ -192,30 +193,209 @@ hr,
   margin: 2rem 0;
 }
 
-@media (max-width: 767.98px) {
+.projects-page {
+  padding-top: 1rem;
+}
+
+.projects-page-header {
+  margin-bottom: 1.5rem;
+}
+
+.projects-page-header h1 {
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  line-height: 1.08;
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.04em;
+}
+
+.projects-list {
+  border-top: 1px solid var(--line);
+}
+
+.project-item {
+  padding: 1.4rem 0 1.2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+}
+
+.project-title {
+  margin: 0.6rem 0 0.45rem;
+  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.project-title a {
+  color: var(--text) !important;
+  text-decoration: none !important;
+}
+
+.project-description {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
+@media (max-width: 768px) {
+  html,
   body {
-    font-size: 1.02rem;
+    overflow-x: hidden;
+  }
+
+  .navbar,
+  .navbar .container,
+  .navbar .container-fluid,
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar .navbar-collapse,
+  .site-header {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    left: 0 !important;
+    right: 0 !important;
+    box-sizing: border-box !important;
   }
 
   .navbar {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1200;
+    min-height: 64px;
+  }
+
+  .navbar .container,
+  .navbar .container-fluid,
+  .navbar > .container,
+  .navbar > .container-fluid {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 
   .navbar-brand {
-    font-size: 1.45rem;
+    order: 1;
+    font-size: 1.2rem !important;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .navbar-toggler {
+    order: 2;
+    margin-left: auto !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid rgba(45, 79, 122, 0.2) !important;
+    border-radius: 0.5rem !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+    padding: 0.5rem 0.7rem !important;
+  }
+
+  .navbar-collapse {
+    position: fixed !important;
+    top: 64px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 1rem 16px 1.25rem !important;
+    background: #e6f0fa !important;
+    border-top: 1px solid rgba(45, 79, 122, 0.08) !important;
+    box-sizing: border-box;
+    z-index: 1199;
   }
 
   .navbar-nav {
-    gap: 0.35rem;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.75rem !important;
+    margin: 0 !important;
+  }
+
+  .nav-item,
+  .nav-link {
+    width: 100% !important;
+    display: block !important;
+    text-align: left !important;
+  }
+
+  .nav-link {
+    font-size: 0.78rem !important;
+    letter-spacing: 0.12em !important;
+    padding: 0.5rem 0 !important;
+  }
+
+  body {
+    padding-top: 64px !important;
+    font-size: 1.02rem;
   }
 
   .page-content,
   .post-content,
   .container,
   .wrapper,
+  .main-content,
+  article,
+  main {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: auto !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .page-header,
+  .page-content,
+  .post-content,
+  .article,
   .main-content {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .page-header h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .profile {
+    max-width: 180px !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 999px !important;
+    display: block !important;
+    margin: 0 auto 1rem !important;
+  }
+
+  img,
+  iframe,
+  table,
+  pre,
+  code,
+  video,
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
