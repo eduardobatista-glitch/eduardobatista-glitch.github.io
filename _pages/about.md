@@ -15,7 +15,6 @@ selected_papers: false
 social: true
 ---
 
-
 Graduando em Engenharia Agronômica pela Universidade Federal do Amazonas (UFAM), no Instituto de Educação, Agricultura e Ambiente (IEAA), e Técnico em Agropecuária pelo Instituto Federal de Educação, Ciência e Tecnologia do Amazonas (IFAM).
 
 Desenvolve atividades acadêmicas e científicas voltadas à integração entre ciências agrárias, tecnologia e inovação, com interesse em inteligência artificial aplicada à agricultura, visão computacional, processamento digital de imagens, fitopatologia, sensoriamento remoto, geotecnologias e análise de dados.
