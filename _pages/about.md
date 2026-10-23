@@ -1,31 +1,16 @@
 ---
 layout: about
-title: sobre
+title: Sobre
 permalink: /
-subtitle: Graduando em Engenharia Agronômica (UFAM) | Técnico em Agropecuária (IFAM)
+subtitle: Graduando em Engenharia Agronômica (UFAM) e Técnico em Agropecuária (IFAM).
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # Mude para true se quiser a foto redonda
+  image_circular: false
   more_info: >
     <p>Humaitá, Amazonas, Brasil</p>
 
-news: true # Exibe as últimas notícias/conquistas
-latest_posts: false # Exibe posts do blog se houver
-selected_papers: false # Ocultar o bloco de publicações em destaque
-social: true # Exibe os ícones das redes sociais no topo/rodapé
+selected_papers: false
+social: true
 ---
-
-**Eduardo da Costa Batista** é graduando em Engenharia Agronômica pela Universidade Federal do Amazonas (UFAM), no Instituto de Educação, Agricultura e Ambiente (IEAA), e Técnico em Agropecuária pelo IFAM.
-
-Desenvolve atividades de pesquisa nas áreas de **inteligência artificial aplicada à agricultura**, **visão computacional**, **processamento digital de imagens**, **fitopatologia**, **agricultura digital** e **monitoramento ambiental**.
-
-Seus trabalhos envolvem o desenvolvimento de ferramentas computacionais para:
-- Análise de imagens foliares e identificação de sintomas de doenças em plantas;
-- Avaliação fitossanitária de culturas agrícolas;
-- Monitoramento da pesca artesanal na região amazônica.
-
-Tem como foco a integração entre ciência de dados, tecnologias digitais e ciências agrárias, buscando desenvolver soluções acessíveis para o diagnóstico fitossanitário, o monitoramento ambiental e a adoção de práticas sustentáveis na Amazônia.
-
-Busca ampliar sua experiência em pesquisa, programação científica, geotecnologias e desenvolvimento de soluções tecnológicas voltadas à agricultura e ao meio ambiente.
