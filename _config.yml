@@ -5,13 +5,14 @@
 
 title: "Eduardo Batista | Portfólio"
 first_name: Eduardo
-middle_name:
+middle_name: ""
 last_name: Batista
 contact_note: >
-  Entre em contato para conversarmos sobre oportunidades e projetos.
+  Entre em contato para conversar sobre projetos e oportunidades.
 description: >
-  Portfólio profissional de Eduardo Batista, com projetos, competências e experiências.
-footer_text: >
+  Portfólio profissional com projetos, competências e experiências.
+footer_text: ""
+
 
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
