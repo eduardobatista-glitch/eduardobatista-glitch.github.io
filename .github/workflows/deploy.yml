@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -38,10 +41,10 @@ jobs:
           node-version: "20"
           cache: "npm"
 
-      - name: Install JS deps
+      - name: Install JS dependencies
         run: npm ci
 
-      - name: Update site config
+      - name: Update Giscus config
         uses: fjogeleit/yaml-update-action@dffe9a5223d84653c13374032382f6bb5de8e5ef
         with:
           commitChange: false
@@ -49,7 +52,7 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
 
-      - name: Install and build Jekyll
+      - name: Install and build the Jekyll site
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
