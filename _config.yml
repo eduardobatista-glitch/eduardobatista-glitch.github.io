@@ -190,17 +190,19 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
 collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
   projects:
     output: true
-  teachings:
+  news:
     output: true
+  books:
+    output: false
+  teachings:
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
